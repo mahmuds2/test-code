@@ -5,7 +5,15 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    tools:context=".HmeActivity">
+    android:background="#1fffffff"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/imageView10"
+        android:src="@drawable/snapthat"
+        android:background="#b7d1b7" />
 
     <ImageView
         android:id="@+id/image_view"
@@ -40,12 +48,13 @@
         android:id="@+id/select_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#3d88ec"
+        android:background="#b7d1b7"
         android:text="select image"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="16dp"
         android:paddingLeft="24dp"
         android:paddingRight="24dp"
+        android:textColor="#fff"
         />
 
 </LinearLayout>

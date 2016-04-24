@@ -19,11 +19,11 @@ public class Food {
         foodArr[3] = "pizza";
         foodArr[4] = "pasta";
 
-        calorieArr[0] = 300;
-        calorieArr[1] = 200;
-        calorieArr[2] = 350;
-        calorieArr[3] = 400;
-        calorieArr[4] = 500;
+        calorieArr[0] = 245;
+        calorieArr[1] = 1912;
+        calorieArr[2] = 79;
+        calorieArr[3] = 285;
+        calorieArr[4] = 158;
 
     }
 
