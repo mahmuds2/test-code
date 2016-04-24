@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:focusableInTouchMode="true"
+    android:background="#1fffffff">
+
+    <!--tools:context="queenshackteam.caloriecounter.CalorieCounter"
+    app:layout_behavior="appbar_scrolling_view_behavior"-->
+    <!--<ImageView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/imageView10"-->
+        <!--android:src="@drawable/lastattempt" />-->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <RelativeLayout
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/imageView2"
+                android:gravity="center_horizontal"
+                />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="325dp"
+                android:text="New Button"
+                android:id="@+id/button2"
+                android:src="@drawable/pizzaer"
+                android:layout_alignParentLeft="true" />
+
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Snap Now"
+                android:textSize="18sp"
+                android:id="@+id/buttonHome"
+                android:layout_gravity="center_horizontal"
+                android:backgroundTint="#7fb9ff"
+                android:layout_alignBottom="@+id/button2"
+                android:layout_alignParentLeft="true"
+                android:textColor="#ffffff" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView8"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="24dp" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="800dp"
+                android:layout_height="40dp"
+                android:weightSum="2"
+                android:baselineAligned="false"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:background="#b7d1b7"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true">
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/imageView10"
+                    android:src="@drawable/snapthat"
+                    android:background="#b7d1b7" />
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+                    <!--android:text="Snap That!"-->
+                    <!--android:id="@+id/textView2"-->
+                    <!--android:layout_weight="0.48"-->
+                    <!--android:fontFamily="monospace"-->
+                    <!--/>-->
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@android:drawable/ic_menu_sort_by_size" />
+
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="67dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView3"
+            android:src="@drawable/fruitinsta"/>
+
+        <ImageView
+            android:layout_width="63dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView4"
+            android:src="@drawable/instaegg"/>
+
+        <ImageView
+            android:layout_width="63dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView5"
+            android:src="@drawable/feast"/>
+
+        <ImageView
+            android:layout_width="63dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView6"
+            android:src="@drawable/fish"/>
+
+        <ImageView
+            android:layout_width="63dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView7"
+            android:src="@drawable/monkey"/>
+
+        <ImageView
+            android:layout_width="66dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView9"
+            android:src="@drawable/bowl"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:weightSum="2">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="0.7"
+                android:src="@drawable/chart"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="0.5"
+                android:text="Calories"
+                android:gravity="center"
+                android:paddingBottom="20dp"/>
+
+             </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1.12"
+                android:layout_height="104dp"
+                android:layout_gravity="center_horizontal"
+                android:weightSum="2">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.7"
+                    android:src="@drawable/dumbbell"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.5"
+                    android:text="Workout"
+                    android:gravity="center"
+                    android:paddingBottom="20dp"/>
+
+                </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:weightSum="2">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="0.7"
+                android:id="@+id/imageView"
+                android:src="@drawable/bookicon"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="0.5"
+                android:text="Gallery"
+                android:gravity="center"
+                android:paddingBottom="20dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
